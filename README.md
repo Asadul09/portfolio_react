@@ -1,7 +1,8 @@
 # 🚀 Asadul Jaman Portfolio
 
 Modern React Portfolio Website  
-Built with React + Tailwind + Vite  
+Built with React + Tailwind + Vite
+## 🔗 Live Demo - https://portfolio-react-lac-eta.vercel.app/
 
 Home :
 
@@ -16,7 +17,7 @@ Projects :
 <img width="1898" height="867" alt="Screenshot 2026-02-27 002750" src="https://github.com/user-attachments/assets/a44f1102-439e-4c64-a3ce-4efc66ee2725" />
 
 
-## 🔗 Live Demo - https://portfolio-react-lac-eta.vercel.app/
+
 
 ## 🛠 Tech Stack
 - React
