@@ -9,15 +9,23 @@ const Projects = () => {
     >
       <div className="max-w-6xl mx-auto">
 
-        {/* Heading */}
+       
         <h2 className="mb-16 text-4xl font-bold text-center md:text-5xl">
           My <span className="text-green-400">Projects</span>
         </h2>
 
-        {/* Projects Grid */}
+        
         <div className="grid gap-10 md:grid-cols-3">
 
-          {/* Existing Projects */}
+          
+          <ProjectCard
+            title="VivaBot – AI Interview Preparation Platform"
+            main="A real-time AI-powered mock interview web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). Features resume analysis, AI-generated interview questions, speech-based interview simulation, performance feedback reports, authentication, interview history, and credit-based interview attempts."
+            demo="https://vivabot-lake.vercel.app"
+            source="https://github.com/Asadul09/VivaBot"
+          />
+
+          
           <ProjectCard
             title="Better-Life-Hospital"
             main="A hospital management system built in Java, featuring patient registration, appointment scheduling, and database integration for efficient healthcare management."
@@ -39,7 +47,6 @@ const Projects = () => {
             source="https://github.com/Asadul09/Exam-Enrollment-System"
           />
 
-          {/* New Projects */}
           <ProjectCard
             title="Hospital-Management-System"
             main="A Hospital Management System developed in PHP and MySQL, featuring patient management, appointment scheduling, and secure access for staff and admin."
@@ -60,8 +67,6 @@ const Projects = () => {
             demo="#"
             source="https://github.com/Asadul09/Smart-IoT-Healthcare-Real-Time-Vital-Sign-Tracking-and-ECG-Arrhythmia-Detection"
           />
-
-        
 
         </div>
       </div>
